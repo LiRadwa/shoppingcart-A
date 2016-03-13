@@ -29,7 +29,7 @@ foreach ($widgets as $widget) {
 		require_once('widgets/'.$widget.'.php');
 }
 
-require_once('custom-fields.php');
+//require_once('custom-fields.php');
 
 function setup_sidebars(){
 	$args = array(
