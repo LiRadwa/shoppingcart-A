@@ -1,7 +1,16 @@
 <?php
 
 $post_types = array(
-		
+		'c95-accessories',
+		'c95-bags',
+		'c95-clothes',
+		'c95-glasses',
+		'c95-watches',
+		'c95-shoes',
+		'c95-toys',
+		'c95-haircare',
+		'c95-skincare',
+
 	);
 
 foreach ($post_types as $post_type) {
@@ -10,7 +19,7 @@ foreach ($post_types as $post_type) {
 }
 	
 $taxonomies = array(
-	
+	'specialization-doctor-taxonomies',
 		
 	);
 
@@ -21,8 +30,8 @@ foreach ($taxonomies as $taxonomy) {
 
 
 $widgets = array(
-		'c95-slide-show.php',
-		
+		'c95-slide-show',
+		'c95-all',
 	);
 foreach ($widgets as $widget) {
 	if(file_exists(__DIR__.'/widgets/'.$widget.'.php'))

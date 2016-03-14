@@ -10,5 +10,4 @@ function load_scripts_and_styles(){
 }
 add_action('wp_enqueue_scripts', 'load_scripts_and_styles');
 
-
 require_once('library/index.php');

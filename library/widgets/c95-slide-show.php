@@ -8,40 +8,7 @@ class SlideshowWidget extends WP_Widget {
 
     function widget( $args, $instance ) { ?>
        
-         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
- 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="b.jpg" alt="a" style="width:1200px;height:500px;">
-      
-    </div>
-    <div class="item">
-      <img src="a.jpg" alt="b" style="width:1200px;height:500px;">
-      
-    </div>
-    <div class="item">
-      <img src="c.jpg" alt="c" style="width:1200px;height:500px;">
-      
-    </div>
-  </div>
- 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-<br>
-<br>
+  
     <?php }
 
     function update( $new_instance, $old_instance ) {
@@ -51,7 +18,7 @@ class SlideshowWidget extends WP_Widget {
     }
 
     function form( $instance ) {
-        $title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Slideshow', 'hospitals' );
+        $title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Slideshow', 'shopping' );
         ?>
         <p>
             <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
