@@ -19,7 +19,10 @@ foreach ($post_types as $post_type) {
 }
 	
 $taxonomies = array(
-	'specialization-doctor-taxonomies',
+	'c95-men',
+	'c95-women',
+	'c95-girls',
+	'c95-boys',
 		
 	);
 
