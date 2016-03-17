@@ -35,16 +35,7 @@ function C95_women() {
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
 	);
-	register_taxonomy( 'women', array( 
-		'c95-skincare' 
-		'c95-accessories',
-		'c95-bags',
-		'c95-clothes',
-		'c95-glasses',
-		'c95-watches',
-		'c95-shoes',
-		'c95-haircare',
-		), $args );
+	register_taxonomy( 'women', array( 'c95-product'), $args );
 
 }
 add_action( 'init', 'C95_women', 0 );

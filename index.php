@@ -1,8 +1,8 @@
 <?php
 get_header();
-the_post();
-the_content();
 ?>
+
+Main PAPGE
 
 <?php
 get_footer();

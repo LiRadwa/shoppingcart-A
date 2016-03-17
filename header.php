@@ -1,25 +1,51 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo('charset');?>">
-	<meta name="viewport" content="width=device-width">
-	<title><?php wp_title("|",true,'right'); ?></title>
-	<?php wp_head(); ?>
-</head>
-<body <?php body_class(); ?> >
-	<div class="container">
-	 <header class="site-header">
-		<h1>
-			<a href="<?php echo home_url() ?>">
-				<?php bloginfo('name');?>
-		</h1>
-		
-		<nav class="site-nav">
-			<ul>
-				<li><a href="#home" class="active" style="color:black">Home</a></li>
-                <li><a href="#news">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li id="p1">Login</li>
-			</ul>
+<?php
+/**
+* Theme for display productsion
+*/
+?><!DOCTYPE html>
+<html>
+	<head>
+		<title><?php wp_title("|", true, 'right'); ?></title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+
+body {
+    
+
+    background-image: url("bg.jpg");
+     background-size: 1350px 2200px;
+    background-repeat: no-repeat;
+}
+}
+</style>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      
+  }
+  </style>
+		<?php wp_head(); ?>
+	</head>
+	<body <?php body_class(); ?>>
+		<div class="container">
+			<header class="site-header page-header">
+				
+		<nav class="navbar navbar-inverse">
+		  
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="<?php echo home_url() ?>">
+		     	 <?php bloginfo( 'name' ); ?>
+		      </a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="<?php echo home_url() ?>">Home</a></li>
+		      <li><a href="#">About Us</a></li>
+		      <li><a href="#">Contact</a></li> 
+		    </ul>
 		</nav>
-	 </header>
+			</header>
+

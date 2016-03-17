@@ -35,16 +35,7 @@ function C95_men() {
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
 	);
-	register_taxonomy( 'men', array( 
-		 
-		'c95-accessories',
-		'c95-bags',
-		'c95-clothes',
-		'c95-glasses',
-		'c95-watches',
-		'c95-shoes',
-		'c95-haircare',
-		), $args );
+	register_taxonomy( 'men', array('c95-accessories'), $args );
 
 }
 add_action( 'init', 'C95_men', 0 );

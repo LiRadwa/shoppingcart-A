@@ -1,15 +1,8 @@
 <?php
 
 $post_types = array(
-		'c95-accessories',
-		'c95-bags',
-		'c95-clothes',
-		'c95-glasses',
-		'c95-watches',
-		'c95-shoes',
-		'c95-toys',
-		'c95-haircare',
-		'c95-skincare',
+		'c95-product',
+		
 
 	);
 
@@ -33,7 +26,7 @@ foreach ($taxonomies as $taxonomy) {
 
 
 $widgets = array(
-		'c95-slide-show',
+		'slideshow-widget',
 		'c95-all',
 	);
 foreach ($widgets as $widget) {
@@ -44,6 +37,17 @@ foreach ($widgets as $widget) {
 //require_once('custom-fields.php');
 
 function setup_sidebars(){
+	$args = array(
+	        'name'          => __( 'slideshow', 'theme_text_domain' ),
+	        'id'            => 'slideshow',
+	        'description'   => '',
+	        'class'         => '',
+	        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	        'after_widget'  => '</li>',
+	        'before_title'  => '<h2 class="widgettitle">',
+	        'after_title'   => '</h2>'
+	);
+	register_sidebar($args);
 	$args = array(
 	        'name'          => __( 'Primary', 'theme_text_domain' ),
 	        'id'            => 'primary',
