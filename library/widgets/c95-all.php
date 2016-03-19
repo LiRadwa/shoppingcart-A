@@ -21,7 +21,7 @@ class LatestProductsWidget extends WP_Widget {
        			 <p>Missguided PremiumPearl Trim Bodycon Mini Dress
 
 $137.00</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -31,7 +31,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>Metallic Shoes</h3>
        			 <p>Metallic Silver Shoes for women $80.00</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -41,7 +41,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>Top</h3>
        			 <p>Pink cotton top for women in summer $150</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -76,7 +76,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>Sport Shoes</h3>
        			 <p>Reebok White New Woven Furylite Sneaker $141.00</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -86,7 +86,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>MBlack Bag</h3>
        			 <p>Woven Oversized Day Bag $220.00</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -96,7 +96,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>Jumper</h3>
        			 <p>Colour Block Textured Jumper for men $100</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -108,7 +108,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>Sunglasses</h3>
        			 <p>RMirrored Wayfarer Sunglasses $60.00</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -118,7 +118,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>Eyeshadow</h3>
        			 <p>Mega Mattes Eyeshadow Palette $40.00</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
@@ -128,7 +128,7 @@ $137.00</p>
      		<div class="caption">
       			  <h3>Purple Dress</h3>
        			 <p>Kilkari Wine Party Dress for kids $199</p>
-       			 <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
+       			 <p><a href="http://localhost/mysqlcartlevel1/" class="btn btn-primary" role="button">Add to Cart</a> <a href="#" class="btn btn-default" role="button">Details</a></p>
       		</div>
    			</div>
    			</div>
